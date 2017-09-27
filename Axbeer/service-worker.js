@@ -26,7 +26,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'axbeer_1.0';
+var CACHE_NAME = 'axbeer_1.1';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
