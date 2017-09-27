@@ -5,7 +5,6 @@ var files = [
   "css/main.css",
   "icons/MaterialIcons-Regular.ttf",
   "icons/material.css",
-  "img/entrada.jpg",
   "img/icon.png",
   "img/hello-world-3d-toast.png",
   "img/hello-world-toast.jpg",
