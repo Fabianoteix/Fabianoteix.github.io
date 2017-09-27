@@ -10,6 +10,7 @@ var files = [
   "img/hello-world-3d-toast.png",
   "img/hello-world-toast.jpg",
   "img/bakery.jpg",
+  "img/cerveja-artesanal.jpg",
   "js/install.js",
   "js/main.js",
   "js/cupom.js",
@@ -25,7 +26,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'bakery-v2.5';
+var CACHE_NAME = 'axbeer_1.0';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
@@ -67,5 +68,5 @@ self.addEventListener('fetch', function(event) {
 
 self.addEventListener('notificationclick', function(event) {
   console.log('On notification click: ', event);
-  clients.openWindow('/bakery-sw/index.html');
+  clients.openWindow('/Axbeer/index.html');
 });
