@@ -1,9 +1,36 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="PSPad editor, www.pspad.com">
-  <script language="JavaScript">
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Hello World</title>
+  <meta name="description" content="WebApp de exemplo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="img/oskay-hello-world-toast.jpg">
+  <meta name="theme-color" content="#F77F00">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Bakery">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="img/icon.png">
+  <meta name="msapplication-TileColor" content="#F77F00">
+
+  <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "fabianoteix.github.io")
+      window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+  </script>
+   <script language="JavaScript">
 	function Login(){
 		var done=0;
 		var usuario=document.login-inputs.usuario.value;
@@ -16,9 +43,13 @@
 		if (done==0) { alert("Dados incorretos, tente novamente"); }
 	}
 	</script>
-  <title></title>
-  </head>
-  <body>
+
+</head>
+
+<body>
+  <div class="current-page">
+ 
+
 <div id="all">
 	<div id="login-box">
 		<div id="login-header">
