@@ -11,6 +11,7 @@ var files = [
   "img/hello-world-toast.jpg",
   "img/bakery.jpg",
   "img/cerveja-artesanal.jpg",
+  "img/cerveja-banner.jpg"
   "js/install.js",
   "js/main.js",
   "js/cupom.js",
@@ -26,7 +27,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'axbeer6.0';
+var CACHE_NAME = 'axbeer7.0';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
