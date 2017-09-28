@@ -27,6 +27,20 @@
   <meta name="msapplication-TileColor" content="#F77F00">
 
   <!-- Configura a url -->
+  <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCTpjsjoRhbNydaPY6mua1rGE_YNxU41J8",
+    authDomain: "axbeer-92d86.firebaseapp.com",
+    databaseURL: "https://axbeer-92d86.firebaseio.com",
+    projectId: "axbeer-92d86",
+    storageBucket: "axbeer-92d86.appspot.com",
+    messagingSenderId: "550372463292"
+  };
+  firebase.initializeApp(config);
+</script>
+
   <script>
     if (window.location.protocol != "https:" && window.location.hostname == "fabianoteix.github.io")
       window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
@@ -45,7 +59,7 @@
         <a href="info.html" class="collection-item waves-effect">
           <i class="material-icons">store</i> Axbeer
         </a>
-        <a href="gerar-cupom.html" class="collection-item waves-effect">
+        <a href="login.html" class="collection-item waves-effect">
           <i class="material-icons">card_giftcard</i>login
         </a>
 
