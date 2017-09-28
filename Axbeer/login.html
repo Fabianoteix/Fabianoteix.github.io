@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Hello World</title>
-  <meta name="description" content="WebApp de exemplo">
+  <title>login</title>
+  <meta name="description" content="Axbeer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
 
@@ -50,22 +50,26 @@
   <div class="current-page">
  
 
-<div id="all">
-	<div id="login-box">
-		<div id="login-header">
-			Faça login no sistema
-		</div>
-		<div id="login-inputs">
-			<input type="text" placeholder="Nome de usuário" name=usuario>
-			<br />
-			<input type="password" placeholder="Senha" name=senha>
-		</div>
-		<div id="enviar">
-			<input type="button" onclick="Login()" class="botao" value=Login>
-			<a href="#">Esqueceu a sua senha?</a>
-		</div>
-	</div>
-</div>
+
+
+
+ <div class="row card-panel">
+        <form class="col s12" method="post">
+          <div class="row">
+            <h3>Faça login no sistema</h3>
+            <div class="input-field col s8">
+              <input id="usuario" type="text" name=usuario>
+              <label for="name">email</label>
+            </div>
+            <div class="input-field col s8">
+              <input id="senha" type="password" name=senha>
+              <label for="name">email</label>
+            </div>
+          </div>
+
+          <button class="btn waves-effect waves-light"  onclick="Login()" value=Login>Enviar</button>
+        </form>
+      </div>
 
   </body>
 </html>
