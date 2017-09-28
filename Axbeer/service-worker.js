@@ -2,6 +2,7 @@ var files = [
   "index.html",
   "info.html",
   "gerar-cupom.html",
+  "login.html",
   "css/main.css",
   "icons/MaterialIcons-Regular.ttf",
   "icons/material.css",
