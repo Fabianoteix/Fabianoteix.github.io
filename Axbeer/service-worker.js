@@ -9,9 +9,8 @@ var files = [
   "img/icon.png",
   "img/hello-world-3d-toast.png",
   "img/hello-world-toast.jpg",
-  "img/bakery.jpg",
   "img/cerveja-artesanal.jpg",
-  "img/cerveja-banner.jpg"
+  "img/cerveja-banner.jpg",
   "js/install.js",
   "js/main.js",
   "js/cupom.js",
